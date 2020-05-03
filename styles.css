@@ -113,7 +113,7 @@ nav {
 }
 
 .intro {
-    margin: 0 196px;
+    margin: 24px 196px 0;
     font-family: var(--secondary-font);
 }
 
