@@ -108,13 +108,16 @@ nav {
     color: var(--blanco);
 }
 
-.nav-item:hover {
+.nav-item:hover,
+.nav-item:hover a {
+    color: var(--gris-oscuro);
     background-color: var(--verde);
 }
 
 .intro {
     margin: 24px 196px 0;
     font-family: var(--secondary-font);
+    color: #fff;
 }
 
 .social-media {
@@ -203,6 +206,10 @@ nav {
     width: 30%;
 }
 
+.form-label {
+    color: #bfbfbf;
+}
+
 .message-input input {
     height: 150px;
     margin-bottom: 16px;
@@ -217,7 +224,7 @@ input {
     align-items: center;
     background-color: var(--verde);
     border-radius: 5px;
-    color: white;
+    color: var(--gris-oscuro);
     font-family: var(--secondary-font);
     display: flex;
     height: 50px;
